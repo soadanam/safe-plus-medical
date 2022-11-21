@@ -1,0 +1,263 @@
+/*//// header section  ////*/
+.header-contact {
+    /* max-width: 1280px; */
+    /* background-color: yellow; */
+    display: flex;
+
+    /* margin: 0px auto; */
+}
+
+.header-left {
+    /* background-color: aqua; */
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.header-left>p {
+    color: rgb(120, 130, 176);
+    color: rgb(0, 20, 152);
+    font-size: .8rem;
+    font-weight: 600;
+    font-style: italic;
+
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.header-left-icon {
+    color: rgb(0, 0, 194);
+    margin-right: 10px;
+}
+
+.header-user-image {
+    background-color: rgba(1, 72, 212, 0.918);
+    background-color: rgba(29, 92, 217, 0.918);
+    width: 44px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    padding: 2px;
+}
+
+.header-right {
+    /* background-color: rgba(253, 59, 0, 0.534); */
+    /* display: flex; */
+    /* gap: 5px; */
+}
+
+.header-right .social {
+    font-size: 25px;
+    color: rgb(1, 1, 212);
+    transition: .5s;
+    margin-left: 10px;
+}
+
+
+.header-right .social:hover {
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+/* /////header nav section /////// */
+.header-top-logo-section {
+    /* background-color: rgb(46, 196, 196); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top-logo-section>h1 {
+    /* color: rgb(2, 2, 174); */
+    color: rgb(42, 56, 159);
+    font-weight: 700;
+    padding-bottom: 3px;
+    /* margin: 0; */
+}
+
+.header-top-logo-section>img {
+    width: 100%;
+    height: 100%;
+    margin-left: 3px;
+}
+
+.logo1 {
+    /* background-color: red; */
+    width: 2rem !important;
+    height: 50% !important;
+    margin-top: -10px;
+    margin-right: 7px;
+}
+
+.logo2 {
+    /* background-color: red; */
+    width: 1.5rem !important;
+    /* height: 50% !important; */
+    /* margin-top: 12px; */
+}
+
+a.nav-link {
+    /* color: red; */
+    /* font-weight: 300; */
+    /* font-size: 1.1rem; */
+    font-weight: 900;
+}
+
+a.nav-link:hover {
+    /* background: rgb(237, 244, 255) !important; */
+    background: rgba(237, 244, 255, 0) !important;
+    color: rgb(0, 52, 111);
+}
+
+
+.nav-top-user-name {
+    color: rgb(4, 43, 126);
+    font-size: .9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nav-logout-button {
+    /* background-color: rgb(1, 1, 182); */
+    background-color: rgb(0, 101, 243);
+    border: 1px solid blue;
+    padding: 10px 8px 8px 8px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+.nav-top-input {
+    height: 44px;
+}
+
+.nav-search-button {
+    /* padding: 0px 0px !important; */
+    padding-top: 0;
+    padding-bottom: 3px;
+    height: 44px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .header-left>p {
+        font-size: .8rem;
+    }
+
+    .header-left-icon {
+        margin-right: 8px;
+        font-size: 1rem;
+    }
+
+    .logo1 {
+        width: 1.8rem !important;
+        margin-right: 5px;
+    }
+
+    .logo2 {
+        width: 1.2rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-left>p {
+        font-size: .8rem;
+    }
+
+    .header-left-icon {
+        margin-right: 7px;
+        font-size: .8rem;
+    }
+
+    .logo1 {
+        width: 1.7rem !important;
+        margin-right: 5px;
+    }
+
+    .logo2 {
+        width: 1.1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-left>p {
+        font-size: .8rem;
+    }
+
+    .header-left-icon {
+        margin-right: 6px;
+        font-size: .9rem;
+    }
+
+    .logo1 {
+        width: 1.7rem !important;
+        margin-right: 5px;
+    }
+
+    .logo2 {
+        width: 1rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-left>p {
+        font-size: .8rem;
+    }
+
+    .header-left-icon {
+        margin-right: 6px;
+        font-size: .9rem;
+    }
+
+    .logo1 {
+        width: 1.6rem !important;
+        margin-right: 5px;
+    }
+
+    .logo2 {
+        width: 1rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .header-contact {
+        display: block;
+    }
+
+    .header-left>p {
+        font-size: .7rem;
+    }
+
+    .header-left-icon {
+        margin-right: 5px;
+        font-size: .8rem;
+    }
+
+    .logo1 {
+        width: 1.5rem !important;
+        margin-right: 4px;
+    }
+
+    .logo2 {
+        width: 1rem !important;
+    }
+
+}
+
+@media (max-width: 317px) {
+    .logo1 {
+        width: 1.4rem !important;
+        margin-right: 4px;
+    }
+
+    .logo2 {
+        width: .9rem !important;
+        /* height: 50% !important; */
+        /* margin-top: 12px; */
+    }
+
+}

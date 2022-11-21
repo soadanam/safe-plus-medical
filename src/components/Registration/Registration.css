@@ -1,0 +1,49 @@
+.register-request-text {
+    font-weight: 700;
+
+    margin-bottom: 50px;
+}
+
+.new-user {
+    /* background-color: red; */
+    font-weight: bold;
+}
+
+.register-error {
+    font-size: .9rem;
+    font-weight: 600;
+    font-style: italic;
+    color: red;
+}
+
+.register-form {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.registration-input {
+    border: 2px solid rgb(0, 79, 182);
+    background-color: rgb(216, 244, 255);
+    border-radius: 10px;
+    padding: 12px 10px;
+    font-size: 14px;
+    box-shadow: inset 10px 10px 10px rgb(147, 166, 173);
+}
+
+.register-required {
+    color: red;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.registration-submit {
+    background-color: rgb(0, 0, 157);
+}
+
+.regi-already-have-acc {
+    font-weight: 600;
+}

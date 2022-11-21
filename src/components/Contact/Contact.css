@@ -1,0 +1,302 @@
+/* ////top banner section  ////*/
+.contact-us-header {
+    margin-top: 0;
+}
+
+
+
+/* ////location-email-phone-section/// */
+.location-email-phone-section {
+    margin-top: 60px;
+    /* background-color: aqua; */
+}
+
+.icons-container {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-div {
+    /* background-color: cadetblue; */
+    margin: 20px;
+    /* width: 25%; */
+    width: 350px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.icon {
+    background-color: rgb(0, 0, 152);
+    color: white;
+    font-size: 1.4rem;
+    padding: 24px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.icon:hover {
+    background-color: white;
+    color: rgb(0, 0, 152);
+    /* padding: 29px; */
+    /* border: 1px solid rgb(1, 1, 50); */
+}
+
+.location-icon-special {
+    padding: 24px 28px;
+}
+
+.location-icon-special:hover {
+    /* padding: px 21px; */
+}
+
+.icon-div>h6 {
+    /* background-color: aquamarine; */
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.icon-div>p {
+    /* background-color: red; */
+    font-size: .8rem;
+}
+
+
+
+
+/*///////// drop your message section  //////*/
+.drop-your-message {
+    background-image: url('../../images/contact-us-input-back.png');
+}
+
+.our-experience-content-2 {
+    /* background-color: aqua; */
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
+}
+
+.drop-left {
+    text-align: left;
+    margin: 0px 100px 0px 0px;
+    /* background-color: antiquewhite; */
+}
+
+.drop-left>h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-email-pass {
+    /* background-color: rgb(232, 10, 55); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-send-message {
+    background-color: rgb(4, 4, 176);
+    color: white;
+    padding: 14px 38px;
+    font-size: .8rem;
+    font-weight: 700;
+    border: none;
+}
+
+.drop-right {
+    position: relative;
+}
+
+.drop-right-decoration1 {
+    background-color: rgb(4, 4, 176);
+    height: 15px;
+    width: 50%;
+    margin-left: 50%;
+}
+
+.emergency-call-div {
+    position: absolute;
+    background-color: rgb(2, 19, 168);
+    color: white;
+    margin-top: -100px;
+    left: -10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 30px 10px 10px;
+    border-radius: 8px;
+}
+
+
+
+.emergency-call-icon-div {
+    background-color: white;
+    font-size: .7rem;
+    color: rgb(0, 0, 184);
+    padding: 6px 9px;
+    transform: rotate(45deg);
+    margin: 8px;
+}
+
+.emergency-call-icon {
+    rotate: -25deg;
+}
+
+.emergency-call-info-div {
+    /* background-color: red; */
+    text-align: left;
+    margin-left: 15px;
+}
+
+.emergency-call-div>div>h5 {
+    font-size: 1rem;
+}
+
+.emergency-call-div>div>p {
+    margin: 0;
+    font-size: .7rem;
+    font-weight: bold;
+
+}
+
+
+
+/* ////// map section /////// */
+.my-leaflet-div {
+    background-color: rgb(202, 218, 204);
+
+    /* width: 100vw; */
+    /* height: 50vh; */
+    height: 450px;
+    /* overflow: hidden; */
+
+    border-top: 15px solid rgb(203, 203, 203);
+    border-bottom: 15px solid rgb(203, 203, 203);
+    /* border-radius: 15px; */
+}
+
+.tooltip3 {
+    /* background-color: rgb(255, 147, 47); */
+    border-radius: 10px;
+}
+
+.tooltip3-text {
+    /* color: blue; */
+    padding: 0;
+    margin: 0;
+}
+
+.airport-distance {
+    /* background-color: red; */
+    font-size: .6rem;
+    color: rgb(10, 133, 186);
+}
+
+
+
+
+
+@media (max-width:992px) {
+    .our-experience-content-2 {
+        margin-top: 50px;
+        display: block;
+    }
+
+    .drop-left {
+        margin: 0px 10px;
+    }
+
+    .contact-email-pass {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .emergency-call-div {
+        margin-top: -100px;
+        left: 4%;
+        padding: 10px 50px 10px 10px;
+        border-radius: 10px;
+    }
+
+    .emergency-call-icon-div {
+        font-size: .8rem;
+    }
+
+    .emergency-call-div>div>h5 {
+        font-size: 1rem;
+    }
+
+    .emergency-call-div>div>p {
+        font-size: .7rem;
+    }
+
+    .my-leaflet-div {
+        height: 320px;
+        border-top: 10px solid rgb(203, 203, 203);
+        border-bottom: 10px solid rgb(203, 203, 203);
+    }
+}
+
+@media (max-width:576px) {
+    .drop-left {
+        margin: 20px 0px;
+    }
+
+    .contact-send-message {
+        padding: 5px 15px;
+        font-size: .7rem;
+        font-weight: 600;
+    }
+
+    .emergency-call-div {
+        margin-top: -60px;
+        left: 4%;
+        padding: 5px 20px 5px 5px;
+        border-radius: 8px;
+    }
+
+    .emergency-call-icon-div {
+        /* background-color: red; */
+        font-size: .5rem;
+        padding: 5px 7px;
+    }
+
+    .emergency-call-div>div>h5 {
+        font-size: .7rem;
+    }
+
+    .emergency-call-div>div>p {
+        font-size: .5rem;
+    }
+
+    .emergency-call-info-div {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width: 400px) {
+    .my-leaflet-div {
+        height: 500px;
+        border-top: 10px solid rgb(203, 203, 203);
+        border-bottom: 10px solid rgb(203, 203, 203);
+
+    }
+}
+
+@media(max-width: 317px) {
+    .my-leaflet-div {
+        height: 400px;
+        border-top: 10px solid rgb(203, 203, 203);
+        border-bottom: 10px solid rgb(203, 203, 203);
+
+    }
+}

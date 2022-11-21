@@ -1,0 +1,45 @@
+.login-request-text {
+    font-size: .9rem;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(130, 132, 164);
+}
+
+.login-top-protected {
+    /* background-color: red; */
+    font-weight: 700;
+}
+
+.login-inputs-form {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-input {
+    border: 2px solid rgb(0, 79, 182);
+    background-color: rgb(216, 244, 255);
+    border-radius: 10px;
+    padding: 12px 10px;
+    font-size: 14px;
+    box-shadow: inset 10px 10px 10px rgb(147, 166, 173);
+}
+
+.login-form-required {
+    color: red;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.google-login, .login-submit {
+    background-color: rgb(1, 1, 140);
+    background-color: rgb(1, 1, 172);
+    margin-bottom: 70px !important;
+}
+
+.login-create-btn {
+    margin-top: 0 !important;
+}

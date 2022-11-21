@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": 1,
+    "serviceName": "Expert Doctor",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 2,
+    "serviceName": "Diagonosis",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 3,
+    "serviceName": "Pathology",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 4,
+    "serviceName": "Dental Care",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 5,
+    "serviceName": "Cardiology",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 6,
+    "serviceName": "Medicine",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 7,
+    "serviceName": "Neurology",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  },
+{
+    "id": 8,
+    "serviceName": "Ambulance",
+    "image1": "https://i.ibb.co/PMVWRnk/service-details-bg.jpg",
+    "image2": "https://i.ibb.co/dMX2zXw/signup-bg.jpg",
+    "heading1": "Our Hospital Always Provide Good Services",
+    "heading2": "We Always Take Care Our Patient",
+    "details1": "LoremIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "details2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio rem magni, dolorum aut vel nostrum quae, fugit necessitatibus eius perferendis. Quia optio tenetur pariatur aliquam obcaecati enim quam eum?"
+  }
+]

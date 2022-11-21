@@ -1,0 +1,15 @@
+.not-found-main {
+    margin: 100px auto;
+}
+
+.not-found-sad-char {
+    /* background-color: antiquewhite; */
+    color: gray;
+    font-size: 10vw;
+    margin: 40px auto;
+}
+
+.not-found-text {
+    color: rgb(3, 3, 117);
+    margin: 50px 0px;
+}
