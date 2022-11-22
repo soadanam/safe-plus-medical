@@ -46,6 +46,12 @@
     color: white;
 }
 
+.view-details-instruction {
+    font-style: italic;
+    color: gray;
+    margin-top: 50px;
+}
+
 .service-details-card {
     /* background-color: antiquewhite; */
     padding: 0;

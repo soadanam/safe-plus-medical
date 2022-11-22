@@ -337,7 +337,7 @@ const Home = () => {
                         <Card.Img variant="top" src={doctor1} />
                         <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary">Get Appointment</Button>{' '}
                         <Card.Body>
-                            <Card.Title>Dr. Jannatun Naushin </Card.Title>
+                            <Card.Title>Dr. J.Naushin </Card.Title>
                             <Card.Text>
                                 Dental Surgeon
                             </Card.Text>

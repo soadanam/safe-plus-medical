@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 
-## Website Details
+# Website Details
 
 This website is about a healthcare website. To be specific - Dental Clinic!
 

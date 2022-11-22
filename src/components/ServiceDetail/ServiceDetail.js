@@ -4,10 +4,13 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import { useState, useEffect } from 'react';
 import quote from '../../images/dq1.png'
+import useAuth from './../../Hooks/useAuth';
 
 
 
 const ServiceDetail = () => {
+    const {user} = useAuth();
+
     const navigate = useNavigate();
     const goToHome = () => navigate('/home');
     
@@ -27,6 +30,10 @@ const ServiceDetail = () => {
             })
     }, []);
 
+    if(serviceDetailsId>=1 && serviceDetailsId<=8){
+        // return false;
+    }
+
 
     return (
         <div className='main-container'>
@@ -37,6 +44,12 @@ const ServiceDetail = () => {
                     <button className='service-details-header-button' onClick={goToHome}>Home</button>&gt; Service Details
                 </div>
             </div>
+            
+            {/* Instruction for the user in case they visit this page without selecting any service details form Home. */}
+            
+            
+            {(serviceDetailsId == 1 || serviceDetailsId ==2 || serviceDetailsId ==3 || serviceDetailsId ==4 || serviceDetailsId ==5 || serviceDetailsId ==6 || serviceDetailsId ==7 || serviceDetailsId ==8) || <h2 className='view-details-instruction container'>Please go to HOME page and find "Our Hospital Service" section then select the "Read More" button to view any service's details here!</h2>}
+
 
             <Card className='service-details-card container'>
                 <Card.Img variant="top" src={service.image1} />
