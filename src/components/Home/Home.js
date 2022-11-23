@@ -55,6 +55,12 @@ const Home = () => {
         navigate(`/service-detail/${id}`)
     };
 
+    // navigate to appointment section
+    const handleGetAppointment = () => navigate('/appointment');
+    
+    //navigate to contact page
+    const handleKnowMoreButton = () => navigate('/contact');
+
 
     // console.log("mr P:", document.querySelectorAll(" p * div "))
 
@@ -72,8 +78,8 @@ const Home = () => {
                                 <h2>Exceptional Health Care for Woman</h2>
                                 <p>Following up with our patient post-appointment is a great way to maintain a relationship as well as remain updated with their condition. This is especially important if they have gone through a major operation or we've given them a life changing diagnosis.</p>
 
-                                <Button className='carousel-btn-get-appoint' variant="outline-primary">Get Appointment</Button>{' '}
-                                <Button variant="primary" className='carousel-btn-know-more'>Know More</Button>{' '}
+                                <Button className='carousel-btn-get-appoint' variant="outline-primary" onClick={handleGetAppointment}>Get Appointment</Button>{' '}
+                                <Button variant="primary" className='carousel-btn-know-more' onClick={handleKnowMoreButton}>Know More</Button>{' '}
                             </div>
                             <div className='carousel-image'>
                                 <img
@@ -163,7 +169,7 @@ const Home = () => {
                         <i className="fa-regular fa-circle-check"></i> Send Message <br />
                     </div>
 
-                    <button className="btn btn-primary about-btn">Know More</button>
+                    <button className="btn btn-primary about-btn" onClick={handleKnowMoreButton}>Know More</button>
 
 
                 </div>
@@ -335,31 +341,31 @@ const Home = () => {
                 <div className="doctors-card">
                     <Card style={{ maxWidth: '18rem' }} className='card'>
                         <Card.Img variant="top" src={doctor1} />
-                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary">Get Appointment</Button>{' '}
+                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary" onClick={handleGetAppointment}>Get Appointment</Button>{' '}
                         <Card.Body>
-                            <Card.Title>Dr. J.Naushin </Card.Title>
-                            <Card.Text>
+                            <Card.Title>Dr. J. Naushin Moon </Card.Title>
+                            <Card.Text className='designation'>
                                 Dental Surgeon
                             </Card.Text>
                         </Card.Body>
                     </Card>
                     <Card style={{ maxWidth: '18rem' }} className='card'>
                         <Card.Img variant="top" src={doctor2} />
-                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary">Get Appointment</Button>{' '}
+                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary" onClick={handleGetAppointment}>Get Appointment</Button>{' '}
                         <Card.Body>
                             <Card.Title>Dr. Addisin Smith</Card.Title>
 
-                            <Card.Text>
+                            <Card.Text className='designation'>
                                 Neurosurgeon
                             </Card.Text>
                         </Card.Body>
                     </Card>
                     <Card style={{ maxWidth: '18rem' }} className='card'>
                         <Card.Img variant="top" src={doctor3} />
-                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary">Get Appointment</Button>{' '}
+                        <Button className='doctors-get-appointment-btn animate__animated animate__backInDown' variant="outline-primary" onClick={handleGetAppointment}>Get Appointment</Button>{' '}
                         <Card.Body>
                             <Card.Title>Dr. Sarah Tylor</Card.Title>
-                            <Card.Text>
+                            <Card.Text className='designation'>
                                 Dental Surgeon
                             </Card.Text>
                         </Card.Body>

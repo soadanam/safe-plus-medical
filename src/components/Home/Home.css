@@ -765,6 +765,13 @@
     height: 10px;
 }
 
+.designation {
+    /* color: red; */
+    text-align: center;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+
 .card-links {
     /* background-color: red; */
     display: flex;
