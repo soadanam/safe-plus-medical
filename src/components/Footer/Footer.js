@@ -90,7 +90,8 @@ const Footer = () => {
             </div>
 
             <div className="copy-right">
-                <p>Copyright &copy; 2022. Designed, Developed & Deployed by SoadAnam</p>
+                <p>Copyright &copy; 2021 - 2022. Designed, Developed & Deployed by SoadAnam</p>
+                {/* {<p>Copyright &copy; 2021 - 2022 SoadAnam. All Rights Reserved</p>} */}
             </div>
         </div>
     );
