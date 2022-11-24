@@ -27,7 +27,7 @@ const Header = () => {
           </p>
           <p className='d-inline me-4'>
             <FontAwesomeIcon className='header-left-icon email' icon={faEnvelope} /> 
-            hello@disin.com
+            info@safeplus.com
           </p>
           <p className='d-inline'>
             <FontAwesomeIcon className='header-left-icon location' icon={faLocationDot}></FontAwesomeIcon>

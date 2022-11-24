@@ -240,6 +240,7 @@
     }
 
     .my-leaflet-div {
+        margin: 50px 0px 10px 0px;
         height: 320px;
         border-top: 10px solid rgb(203, 203, 203);
         border-bottom: 10px solid rgb(203, 203, 203);
@@ -281,11 +282,17 @@
     .emergency-call-info-div {
         margin-left: 5px;
     }
+
+    .my-leaflet-div {
+        margin: 50px 0px 10px 0px;
+        height: 300px;
+    }
 }
 
 @media(max-width: 400px) {
     .my-leaflet-div {
-        height: 500px;
+        margin: 50px 0px 10px 0px;
+        height: 250px;
         border-top: 10px solid rgb(203, 203, 203);
         border-bottom: 10px solid rgb(203, 203, 203);
 
@@ -294,7 +301,8 @@
 
 @media(max-width: 317px) {
     .my-leaflet-div {
-        height: 400px;
+        margin: 50px 0px 10px 0px;
+        height: 250px;
         border-top: 10px solid rgb(203, 203, 203);
         border-bottom: 10px solid rgb(203, 203, 203);
 

@@ -308,6 +308,13 @@
         max-width: 190px;
         text-align: justify;
     }
+
+    .logo-footer-plus {
+        margin-top: 20px;
+        margin-bottom: 1px;
+        /* background-color: red; */
+
+    }
 }
 
 
@@ -321,6 +328,12 @@
     .footer-name-sec {
         max-width: 100%;
         /* text-align: justify; */
+    }
+
+    .logo-footer-plus {
+        margin-top: 20px;
+        margin-bottom: 2px;
+        /* background-color: red; */
     }
 
     .footer-icon {

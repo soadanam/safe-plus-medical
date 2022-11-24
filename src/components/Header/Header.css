@@ -204,7 +204,9 @@ a.nav-link:hover {
     }
 
     .logo2 {
-        width: 1rem !important;
+        width: .9rem !important;
+        margin-bottom: 2px;
+        /* background-color: red; */
     }
 
     .header-top-logo-section>h1 {
@@ -238,8 +240,11 @@ a.nav-link:hover {
     }
 
     .logo2 {
-        width: 1rem !important;
+        width: .9rem !important;
+        margin-bottom: 2px;
+        /* background-color: red; */
     }
+
 }
 
 @media (max-width: 400px) {
@@ -262,7 +267,9 @@ a.nav-link:hover {
     }
 
     .logo2 {
-        width: 1rem !important;
+        width: .9rem !important;
+        margin-bottom: 2px;
+        /* background-color: red; */
     }
 
 }
@@ -275,9 +282,10 @@ a.nav-link:hover {
 
     .logo2 {
         width: .9rem !important;
-        /* height: 50% !important; */
-        /* margin-top: 12px; */
+        margin-bottom: 4px;
+        /* background-color: red; */
     }
+
 
     .nav-search-button {
         display: none;
