@@ -333,4 +333,11 @@
     .contact-us-div>div>p, .phone-number>div>p, .footer-email>div>p>a {
         font-size: .8rem !important;
     }
+
+    .footer-name-top {
+        /* color: aqua; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
 }

@@ -181,6 +181,11 @@ a.nav-link:hover {
     .logo2 {
         width: 1.1rem !important;
     }
+
+    .header-top-logo-section>h1 {
+        /* color: gold; */
+        padding-bottom: 0px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -201,6 +206,20 @@ a.nav-link:hover {
     .logo2 {
         width: 1rem !important;
     }
+
+    .header-top-logo-section>h1 {
+        /* color: red; */
+        padding-bottom: 0px;
+    }
+
+    a.nav-link {
+        /* color: red; */
+        /* font-weight: 300; */
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+
 }
 
 @media (max-width: 576px) {
@@ -258,6 +277,10 @@ a.nav-link:hover {
         width: .9rem !important;
         /* height: 50% !important; */
         /* margin-top: 12px; */
+    }
+
+    .nav-search-button {
+        display: none;
     }
 
 }
