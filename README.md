@@ -35,7 +35,7 @@ Used Firebase and Context API for Authentication.
 6. Vanilla CSS
 7. Animate CSS
 8. React Leaflet
-9. React Router Dom
+9. React Router Dom V6
 10. React Hook Form
 
 
